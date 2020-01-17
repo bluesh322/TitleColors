@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0,0,0, .96);
+}
+
+h1 {
+    font-family: Baskervville;
+    font-size: 5rem;
+}
+
+.letter {
+    transition: color 1000ms;
+}
+
+.todo {
+    font-size: 40px;
+    color: purple;
+}
+.todo:hover {
+    background-color: rgb(0,0,0,.1);
+    transition: all 200ms;
+}
+completed {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.big {
+    transform: scale(2);
+}
+
+.small {
+    transform: scale(.5);
+}
